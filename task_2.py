@@ -30,3 +30,4 @@ print(*nums_gen_1)
 nums_gen_2 = (num for num in range(1, n + 1) if num % 2 != 0)
 print(type(nums_gen_2))
 print(*nums_gen_2)
+

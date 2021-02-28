@@ -21,4 +21,3 @@ start = perf_counter()
 src = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
 res_l = (src[i] for i in range(1, len(src)) if src[i] > src[i-1])
 print(*res_l, '\n', type(res_l), sys.getsizeof(res_l), 'byte,', perf_counter() - start, 'sec')
-

@@ -42,4 +42,3 @@ klasses = [
 gen_1 = gen_name_class(tutors, klasses)
 print(type(gen_1))
 print(*gen_1)
-

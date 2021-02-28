@@ -33,4 +33,3 @@ for el in src:
     tmp.add(el)
 src_res = [num for num in src if num in src_set_uni]
 print(src_res, '\n', type(src_res), perf_counter() - start, 'sec')
-
